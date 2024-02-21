@@ -119,6 +119,8 @@ install(TARGETS ${PROJECT_NAME}_node
   #RUNTIME DESTINATION bin
   DESTINATION lib/${PROJECT_NAME}
 )
+
+# exporting the libraries below might not be necessary
 ament_export_libraries(${library_name})
 
 message("Added libs")
